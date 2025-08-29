@@ -1262,7 +1262,7 @@ public class MedicalUI extends UI {
 
 
 
-        System.out.println("Prescription notes (optional): ");
+        System.out.print("Prescription notes (optional): ");
         String notes = this.scanner.nextLine().trim();
 
         prescription.setNotes(notes.isEmpty() ? null : notes);
